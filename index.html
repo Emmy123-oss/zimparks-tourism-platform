@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZimParks Tourism Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="C:\xampp\htdocs\zimparks\fallspictures\zimparks-logo.png.jpeg" alt="ZimParks_Digital_Tourism_Platform_Project_Proposal" width="80">
+        <h1>ZimParks Digital Portal</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Destination Directory</h2>
+            <input type="text" id="search" placeholder="Search parks..." onkeyup="filterParks()">
+            <ul id="parkList">
+                <li>Victoria Falls National Park</li>
+                <li>Hwange National Park</li>
+                <li>Mana Pools National Park</li>
+            </ul>
+            <img src="C:\xampp\htdocs\zimparks\fallspictures\victoria-falls.jpg.png" alt="Park Photo" width="300">
+        </section>
+        <form action="process.php" method="POST">
+            <h3>Send an Enquiry</h3>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <textarea name="enquiry" placeholder="Your Question" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+   font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background: url('C:\xampp\htdocs\zimparks\fallspictures\WhatsApp Image 2026-11-18 at 14.20.34.jpeg') no-repeat center center fixed; 
+    background-size: cover; 
+    color: #222; 
+} 
+
+header { text-align: center; 
+    background: #004d20; 
+    color: white;
+     padding: 15px; 
+     border-radius: 6px; }
+main { background: white;
+     padding: 20px;
+      margin-top: 15px; 
+      border-radius: 6px; 
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+input, textarea { width: 100%;
+     padding: 8px; 
+     margin: 8px 0;
+      box-sizing: border-box; }
+button { background: #004d20;
+     color: white; 
+     border: none;
+      padding: 10px 15px; 
+      cursor: pointer; 
+      border-radius: 4px; }
+button:hover { background: #003314; }
